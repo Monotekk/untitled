@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter-Black.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
 body{
     width: 1900px;
 }
@@ -33,7 +41,7 @@ header{
     padding-right: 8px;
     align-self: center;
 }
-.number p{
+.number a{
     color: white;
     padding-right: 32px;
     font-family: 'Inter', sans-serif;
@@ -48,7 +56,8 @@ header{
     flex-direction: row;
 }
 .promo_text h1{
-    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -59,7 +68,8 @@ header{
     word-wrap: break-word;
 }
 .promo_text h2{
-    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -73,4 +83,75 @@ header{
 .promo_img img{
     width: 548px;
     height: 768px;
+    padding-bottom: 328px;
+}
+.buttons{
+    margin: 36px 0 0 312px;
+}
+.button{
+    width: 222px;
+    height: 48px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: #FFFFFF 1px solid;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin-right: 32px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.button:hover{
+    background: #7B68EE;
+    box-shadow: 0 1px 6px rgba(31, 41, 55, 0.1);
+    border: rgba(31, 41, 55, 0.1) solid 1px;
+}
+.suitableness{
+    border: #ffffff solid 1px;
+    margin: 10px 448px;
+    border-radius: 32px;
+}
+.suitableness h1{
+    margin-top: 98px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.suitableness_cards{
+    display: flex;
+    justify-content: center;
+}
+.suitableness_cards h3{
+    padding: 80px 0 24px 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.95;
+    border-bottom: rgba(73, 204, 249, 1) solid 1px;
+}
+.suitableness_cards p{
+    word-wrap: break-word;
+    width: 237px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 0 56px;
+    margin-bottom: 64px;
 }
