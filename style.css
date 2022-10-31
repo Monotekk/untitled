@@ -1,0 +1,76 @@
+body{
+    width: 1900px;
+}
+.container{
+    margin: 0   272px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header{
+    background: url("img/Фон под первым экраном.png");
+}
+.logo{
+
+}
+.logo_img{
+    width: 160px;
+    height: 80px;
+    padding-top: 8px;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+}
+.number img{
+    height: 19px;
+    width: 19px;
+    padding-right: 8px;
+    align-self: center;
+}
+.number p{
+    color: white;
+    padding-right: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.promo{
+    display: flex;
+    flex-direction: row;
+}
+.promo_text h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFFFFF;
+    padding: 301px 0 0 312px;
+    width: 817px;
+    word-wrap: break-word;
+}
+.promo_text h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    padding: 24px 0 0 312px;
+    word-wrap: break-word;
+    width: 590px;
+}
+.promo_img img{
+    width: 548px;
+    height: 768px;
+}
